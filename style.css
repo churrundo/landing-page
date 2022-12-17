@@ -88,8 +88,9 @@ button{
 .info{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 100px 300px;
     row-gap: 20px;
+    align-items: center;
 }
 
 .info-header{
@@ -99,15 +100,22 @@ button{
     color: #1F2937;
     justify-content: center;
     margin-top: -15px;
+    text-align: center;
+    
 }
 
 .pics{
-    display: flex;  
+    display: flex; 
+    align-self: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 50%
 }
 
 .pic-element{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .pic-element > img{
@@ -121,6 +129,8 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 160px;
+    text-align: center;
 }
 
 .quote{
