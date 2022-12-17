@@ -89,6 +89,7 @@ button{
     display: flex;
     flex-direction: column;
     padding: 100px;
+    row-gap: 20px;
 }
 
 .info-header{
@@ -97,16 +98,29 @@ button{
     font-weight: bolder;
     color: #1F2937;
     justify-content: center;
+    margin-top: -15px;
 }
 
 .pics{
-    display: flex;
-    
+    display: flex;  
 }
 
 .pic-element{
     display: flex;
     flex-direction: column;
+}
+
+.pic-element > img{
+    border: solid #3882f6;
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.image-subtext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .quote{
