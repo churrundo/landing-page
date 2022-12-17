@@ -13,8 +13,8 @@ body{
 
 .header{
     justify-content: space-between;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
 }
 .header-logo{
     font-size: 24px;
@@ -43,12 +43,16 @@ a{
 }
 
 .hero{
-    padding-left: 100px;
+    padding-left: 300px;
     padding-top: 100px;
     padding-right: 300px;
     padding-bottom: 100px;
-    gap: 40px;
-    justify-content: flex-start;
+    justify-content: flex-end;
+}
+
+.hero-box{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .description{
@@ -83,6 +87,7 @@ button{
 #borrego{
     object-fit: contain;
     height: 210px;
+    margin-left: 50px;
 }
 
 .info{
@@ -108,7 +113,7 @@ button{
     display: flex; 
     align-self: stretch;
     flex-wrap: wrap;
-    justify-content: space-evenly;  
+    justify-content: space-between;  
 }
 
 .pic-element{
@@ -138,7 +143,7 @@ button{
 .quote{
     display: flex;
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 100px 300px;
     flex-direction: column;
 }
 
